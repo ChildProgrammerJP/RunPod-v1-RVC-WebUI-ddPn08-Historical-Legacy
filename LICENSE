@@ -13,7 +13,20 @@ modules/tabs/traininig.py ：
 Row 217：maximum=4 → maximum=1000（Speaker ID）
 Row 275：maximum=100 → maximum=1000（save_every_epoch）
 
-lauch.py
+modules/core.py：
+modules/models.py：Row 24・26
+modules/tabs/inference.py：Row 33・35
+modules/tabs/training.py：Row 234・236
+Add model choice for "hubert-base-japanese"
+Delete model option "distilhubert"
+
+modules/core.py：
+Row 24：
+filename = f"https://huggingface.co/ddPn08/rvc-webui-models/resolve/main/pretrained/{basename}.pth"
+→
+filename = f"https://huggingface.co/ddPn08/rvc-webui-models/resolve/main/pretrained/v1/{basename}.pth"
+
+lauch.py：
 Row 117：
 export TORCH_COMMAND="pip install torch torchvision --extra-index-url https://download.pytorch.org/whl/cu118"
 →
