@@ -6,5 +6,5 @@ Classic RVC WebUI - ddPn08 version：Repository for the RVC v1 model of Retrieva
 October 12, 2024：Repository in use: May 1, 2023 edition<br>
 2024年10月12日（使用中のリポジトリ：2023年5月1日版）<br><br>
 【Last Updated - 最終更新】<br>
-October 28, 2024<br>
-2024年10月28日<br>
+October 29, 2024<br>
+2024年10月29日<br>
